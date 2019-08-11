@@ -1,5 +1,5 @@
 import React from "react";
-import Svg, {G, Path} from 'react-native-svg'
+import Svg, {G, Path} from 'react-native-svg/index'
 
 const Cogs = props => (
   <Svg id="icon" width={22} height={22} viewBox="0 0 22 22" {...props}>
@@ -62,7 +62,7 @@ const iconsMap = (props = {fill: 'white'}) => {
   }
 };
 
-const Icon = ({name, color, style, ...props}) => {
+const BottomNavIcons = ({name, color, style, ...props}) => {
   const svgPattern = {
     fill: color
   };
@@ -70,4 +70,4 @@ const Icon = ({name, color, style, ...props}) => {
   return iconsMap(svgPattern)[name];
 };
 
-export {Icon, iconsMap};
+export {BottomNavIcons, iconsMap};

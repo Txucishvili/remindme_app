@@ -1,9 +1,9 @@
 import React from 'react';
 import {createAppContainer, createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 
-import ModalScreen from "./ModalScreen";
+import ModalScreen from "../screens/modals/ModalScreen";
 import EditorScreen from "../screens/EditorScreen/EditorScreen";
-import InfoScreen from "./InfoScreen";
+import InfoScreen from "../screens/modals/InfoScreen";
 import WriteScreen from "../screens/WriteScreen/WriteScreen";
 import ReminderScreen from "../screens/ReminderScreen/ReminderScreen";
 import CreateReminderScreen from "../screens/ReminderScreen/CreateReminderScreen";

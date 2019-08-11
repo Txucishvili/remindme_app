@@ -1,6 +1,6 @@
 import React from "react";
 import {Text, View} from "react-native";
-import layoutControl from "../Utils/variables/layout.variables";
+import layoutControl from "../../Utils/variables/layout.variables";
 
 class ModalScreen extends React.Component {
   static navigationOptions = {
